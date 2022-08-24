@@ -73,7 +73,7 @@ const AppProvider = ({ children }) => {
 
   // axios
   const authFetch = axios.create({
-    baseURL: "https://jobify-mern-app-smok.herokuapp.com/api/v1",
+    baseURL: "https://mern-jobi.herokuapp.com/api/v1",
   });
   // request
 
